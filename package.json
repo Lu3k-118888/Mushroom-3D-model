@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "dat.gui": "^0.7.9",
+    "gsap": "^3.11.5",
+    "lil-gui": "^0.18.1",
+    "three": "^0.151.3",
+    "vercel": "^29.3.3"
+  },
+  "devDependencies": {
+    "vite": "^4.2.1",
+    "vite-plugin-glsl": "^1.1.2"
+  },
+  "name": "mushroom",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "deploy": "vercel --prod"
+  },
+  "author": "Manish Kumar Mahto",
+  "license": "ISC",
+  "description": ""
+}
